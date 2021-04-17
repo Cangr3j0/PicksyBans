@@ -1,0 +1,35 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property
+ */
+ .root{
+ 	
+ 	-fx-background-size:cover;
+ 	-fx-background-image: url("../leagueofnoa3.png");
+ 	-fx-background-color: black;
+ 	-fx-text-fill:white;
+ 	-fx-grid-lines-visible: false;
+ }
+ .outline{
+ 	-fx-text-fill:white;
+ 	-fx-font-family:'NotoSansKR-Bold';
+ 	-fx-font-weight: bold;
+ 	-fx-font-size: 15;
+ 	-fx-stroke-borders:black;
+ 	-fx-effect: dropshadow(gaussian, #000000, 1, 5, 0, 0);
+ }
+ .outline.label .text {
+ 	-fx-stroke-borders: black,20px,20px;
+    -fx-stroke-width: 10px;
+}
+ .canvasPickeos{
+	-fx-effect: innershadow(gaussian, #000000, 2.5, 1.0, 0, 0);
+}
+.informacion{
+	
+	-fx-background-image:url("../teemo2.jpg");
+	 	-fx-text-fill:white;
+ 	-fx-font-family:'NotoSansKR-Bold';
+ 	-fx-font-weight: bold;
+ 	-fx-font-size: 15;
+ 	-fx-stroke-borders:black;
+ 	-fx-effect: dropshadow(gaussian, #000000, 1, 5, 0, 0);
+}
